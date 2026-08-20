@@ -1,0 +1,4 @@
+# Power BI Desktop machine-local state. The source-controlled definitions are the
+# PBIP/PBIR/TMDL files beside this ignore file; cached model data belongs in PBIX.
+**/.pbi/localSettings.json
+**/.pbi/cache.abf

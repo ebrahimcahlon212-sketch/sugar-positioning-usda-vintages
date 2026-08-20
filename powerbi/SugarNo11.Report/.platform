@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Sugar No. 11"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "a9058ec1-f9b0-5f80-a7b9-8e3db39c8902"
+  }
+}

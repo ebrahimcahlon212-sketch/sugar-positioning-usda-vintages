@@ -1,0 +1,20 @@
+model Model
+	culture: en-GB
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	discourageImplicitMeasures
+	sourceQueryCulture: en-GB
+
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation Report_SourceFiles = ["../../data/derived/positioning_releases.csv","../../data/derived/wasde_sugar_vintages.csv","../../data/derived/wasde_sugar_revisions.csv"]
+annotation Report_AsOfUTC = 2026-08-20T23:59:59Z
+annotation Report_Disclosures = PUBLIC DATA | NO PRICE SERIES | RULE NOT RETUNED
+annotation PBI_QueryOrder = ["Positioning Releases","WASDE Vintages","WASDE Revisions","Audit Sources"]
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+ref table 'Positioning Releases'
+ref table 'WASDE Vintages'
+ref table 'WASDE Revisions'
+ref table 'Audit Sources'

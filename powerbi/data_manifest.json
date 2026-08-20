@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "built_for_power_bi_desktop": "2.157.879.0",
+  "as_of_utc": "2026-08-20T23:59:59Z",
+  "embedding": "Deterministic raw CSV bytes encoded as Base64 inside Power Query M; refresh requires no absolute path or credentials. Re-run this script after pipeline exports change.",
+  "inputs": {
+    "positioning": {
+      "relative_path": "../data/derived/positioning_releases.csv",
+      "sha256": "73fa67f819bd0c8ee820e3c8cec0b7541cff74584ece754e8f1883b4e4eab613",
+      "bytes": 825781,
+      "rows": 885,
+      "embedded_sha256": "003882cacbeb501d038e3cd28d5280fd2eab845b4038e432b5b08a8a3e4bf850",
+      "embedded_bytes": 837306
+    },
+    "vintages": {
+      "relative_path": "../data/derived/wasde_sugar_vintages.csv",
+      "sha256": "c5c4433456c57f9fd69df89e5a86e84b0396ad0d69f3c397348f2eb05fedbb0c",
+      "bytes": 681049,
+      "rows": 1170,
+      "embedded_sha256": "72c618d42e1036805aeef1975fe1d898840de8f6e0762fc98b4e06084bde7bfc",
+      "embedded_bytes": 666991
+    },
+    "revisions": {
+      "relative_path": "../data/derived/wasde_sugar_revisions.csv",
+      "sha256": "858c28ab7c2ccf2d2c368df32dce27fbb4eefacae3c0d1adfc4ddb706428dea5",
+      "bytes": 226920,
+      "rows": 1064,
+      "embedded_sha256": "3241c22aa00eca659bf0a1d65e25e89de456ab065318f490e1330e8aafd3d711",
+      "embedded_bytes": 237016
+    }
+  },
+  "derived_model_tables": {
+    "audit": {
+      "rows": 900,
+      "embedded_sha256": "d68e00c037241012089dbaebccc670c632313b4e63becb640a22ec0d07f5550b",
+      "embedded_bytes": 688731
+    }
+  }
+}

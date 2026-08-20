@@ -1,0 +1,18 @@
+{
+  "upstream_repository": "https://github.com/microsoft/json-schemas",
+  "upstream_commit": "f891f5bfc1ce0030aa53d805d90881a1b8b07643",
+  "retrieved_on": "2026-08-20",
+  "license_file": "LICENSE.microsoft-json-schemas",
+  "license_sha256": "dea9265341829002e2c23a7372393eb2ed6e26085fb623f38a4ba0af833f30a6",
+  "files": {
+    "page-2.1.0.schema.json": "35c2f150882647855607cce7acd6b7166f7539f8614a1bf534dced5fba7699cc",
+    "pages-metadata-1.1.0.schema.json": "aee864ccff93f1b2e072b5b3dcbd3dbb904380d1d51ea22941b3e2a87da459f1",
+    "pbip-properties-1.0.0.schema.json": "af66cd9850f8f99373c4ebc991e3c1612e74aebdcdc67a9f564d6122c313250d",
+    "platform-properties-2.0.0.schema.json": "8d12daa644f6e8f44e4ccc6788e29a40a2a2ecad1a96be91e77330ed7c8a4453",
+    "report-3.3.0.schema.json": "9f0b94a084d6c2e2cac2f1ee0900fc7f8159ae4e2c308f108000636a6d6bb481",
+    "report-definition-properties-2.0.0.schema.json": "e46b78fce6f2107a005f27acce1d12f7bd03714c1f0ea4b41e11b0720e478cc1",
+    "semantic-model-definition-properties-1.0.0.schema.json": "4ba062788ea423978642bfeead3f9fb6385a3598fe50331c99ed03ec3a80e0fc",
+    "version-metadata-1.0.0.schema.json": "2c77c510cb12e11f10172174422d0efb1d4e97da06b8d453b2abdf81537e68b2",
+    "visual-container-2.9.0.schema.json": "560a7ffab7baafdb724e9913801e5fa0a26e4e864429387f3a2ec5be11e17c27"
+  }
+}
