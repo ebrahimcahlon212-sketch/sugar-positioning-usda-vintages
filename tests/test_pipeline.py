@@ -37,7 +37,7 @@ from sugar_market_study.wasde import (
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 
-@pytest.fixture(scope="module")  # type: ignore[untyped-decorator]
+@pytest.fixture(scope="module")
 def sources() -> tuple[SourceRecord, ...]:
     return verify_sources(PROJECT_ROOT)
 

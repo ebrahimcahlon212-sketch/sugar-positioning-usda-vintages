@@ -23,7 +23,7 @@ class MonkeyPatchLike(Protocol):
     def setattr(self, target: object, name: str, value: object, raising: bool = True) -> None: ...
 
 
-@pytest.fixture(autouse=True)  # type: ignore[untyped-decorator]
+@pytest.fixture(autouse=True)
 def _block_test_network(monkeypatch: MonkeyPatchLike) -> Iterator[None]:
     """Fail closed for common Python socket paths during every test."""
 

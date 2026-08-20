@@ -40,7 +40,6 @@ select = ["B", "E", "F", "I", "UP"]
 python_version = "3.11"
 strict = true
 files = ["src", "tests"]
-no_site_packages = true
 
 [[tool.mypy.overrides]]
 module = ["pytest"]
