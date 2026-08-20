@@ -6,7 +6,7 @@ AI accelerated the workflow; it did not supply market observations.
 
 - mapping official public CFTC and USDA sources;
 - scaffolding parsers, validation tests, documentation and Power BI source definitions;
-- proposing a recruiter-facing report layout and concise explanatory language;
+- proposing the report layout and concise explanatory language;
 - reviewing timing, correction, unit, licensing and look-ahead failure modes; and
 - checking that observations, interpretation and limitations remain separate.
 

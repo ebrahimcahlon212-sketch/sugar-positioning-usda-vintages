@@ -179,7 +179,7 @@ def test_two_consecutive_project_builds_are_byte_identical() -> None:
     assert build_and_hash() == build_and_hash()
 
 
-def test_desktop_cache_is_ignored_and_recruiter_pbix_is_deliberately_tracked() -> None:
+def test_desktop_cache_is_ignored_and_pbix_is_deliberately_tracked() -> None:
     ignore_text = (POWERBI / ".gitignore").read_text(encoding="utf-8")
     assert "**/.pbi/localSettings.json" in ignore_text
     assert "**/.pbi/cache.abf" in ignore_text

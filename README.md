@@ -4,9 +4,9 @@ An auditable research artifact that transfers one frozen positioning rule from c
 No. 11, then puts a point-in-time USDA U.S./Mexico sugar supply-and-demand vintage tracker beside
 it in a source-controlled Power BI report.
 
-This is deliberately not a trading system or a polished chart built on hidden inputs. It shows
-the research controls a softs desk needs: prior-only thresholds, release-lag handling, append-only
-vintages, unit checks, content hashes and an offline test suite.
+This is deliberately not a trading system or a polished chart built on hidden inputs. It uses
+prior-only thresholds, release-lag handling, append-only vintages, unit checks, content hashes
+and an offline test suite.
 
 ## What the artifact shows
 
@@ -91,19 +91,6 @@ verification retains compact row URLs and audit metadata rather than volatile HT
 See [`METHODOLOGY.md`](METHODOLOGY.md), [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md),
 [`DATA_LICENSE.md`](DATA_LICENSE.md), [`AI_USAGE.md`](AI_USAGE.md) and
 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) before interpreting results.
-
-## Recruiter-ready description
-
-> Built and independently audited a publication-aware Sugar No. 11 positioning study combining
-> 885 CFTC releases with a point-in-time tracker of 15 USDA WASDE vintages and a validated Power BI
-> report; implemented prior-only quantiles, official release verification, content-hashed
-> provenance and offline regression tests.
-
-Cover-letter version:
-
-> I built in public, for cocoa, the publication-aware research controls a softs desk needs, then ran
-> the same frozen framework on Sugar No. 11 with CFTC positioning, USDA WASDE vintages and a Power
-> BI decision report.
 
 ## Repository map
 

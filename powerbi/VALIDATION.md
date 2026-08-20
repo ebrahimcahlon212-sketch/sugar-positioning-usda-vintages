@@ -2,7 +2,7 @@
 
 Validated on 20 August 2026 with Power BI Desktop `2.157.879.0`.
 
-## Recruiter-ready PBIX
+## Validated PBIX
 
 - File: `powerbi/SugarNo11.pbix`
 - Size: `350,195` bytes
