@@ -3,3 +3,4 @@
 *.jpg binary
 *.pdf binary
 *.pbix binary
+powerbi/schemas/LICENSE.microsoft-json-schemas binary
